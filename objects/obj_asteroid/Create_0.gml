@@ -1,3 +1,5 @@
+event_inherited();
+
 randomize();
 sprite_index = choose(
 	spr_asteroid_small, spr_asteroid_med, spr_asteroid_large

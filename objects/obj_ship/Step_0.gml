@@ -11,9 +11,7 @@ if (keyboard_check(vk_up)) {
 }
 
 if (keyboard_check_pressed(vk_space)) {
-	var inst_id = instance_create_layer(x, y, "Instances", obj_bullet);
-	inst_id.direction = image_angle;
-	audio_play_sound(snd_zap, 1, false);
+	create_bullet(image_angle, bulletSpeed, faction);
 }
 
 move_wrap(true, true, sprite_width / 2);
