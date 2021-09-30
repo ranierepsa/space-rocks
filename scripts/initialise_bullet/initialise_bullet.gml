@@ -6,7 +6,7 @@ function initialise_bullet(_direction, _speed, _faction, _inst_id){
 	var _creator = id;
 	with (_inst_id) {
 		direction = _direction;
-		speed = _speed;
+		if (object_index == obj_bullet) speed = _speed;
 		faction = _faction;
 		creator = _creator;
 		

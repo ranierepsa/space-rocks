@@ -54,6 +54,9 @@ function create_bullet(_direction, _speed, _faction, _guns = -1){
 			break;
 			
 		case powerups.laser_bullets:
+			audio_play_sound(snd_laser, 1, false);
+			var inst_id = instance_create_layer(x, y, "Instances", obj_laser);
+			initialise_bullet(_direction, _speed, _faction, inst_id);
 			break;
 			
 		default:

@@ -4,6 +4,7 @@
     {"id":{"name":"obj_faction","path":"objects/obj_faction/obj_faction.yy",},"order":13,},
     {"id":{"name":"snd_laser","path":"sounds/snd_laser/snd_laser.yy",},"order":6,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":4,},
+    {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"order":15,},
     {"id":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"order":2,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":3,},
     {"id":{"name":"spr_starfield_1","path":"sprites/spr_starfield_1/spr_starfield_1.yy",},"order":9,},
