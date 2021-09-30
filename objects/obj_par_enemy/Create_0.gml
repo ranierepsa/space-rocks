@@ -7,3 +7,4 @@ image_angle = direction;
 HP = 1;
 orignalSpeed = speed;
 bulletCount = 0;
+exhaustCounter = 0;

@@ -1,3 +1,5 @@
+event_inherited();
+
 image_index = HP - 1;
 
 if(!instance_exists(obj_ship)) exit;

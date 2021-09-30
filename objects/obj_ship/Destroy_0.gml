@@ -8,6 +8,10 @@ audio_play_sound(snd_die, 1, false);
 
 instance_destroy();
 
-repeat(10) {
-	instance_create_layer(x, y, "Instances", obj_debris);	
+// Particles
+var _xx = x;
+var _yy = y;
+var color = image_blend;
+with (obj_particles) {
+	part_particles_create_colour(partSys, _xx, _yy, partTypeShipDebris, color, 10);
 }
