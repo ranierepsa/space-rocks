@@ -8,4 +8,4 @@ image_blend = c_lime;
 
 image_speed = 0;
 
-image_index = powerups.invincible;
+image_index = powerups.star_bullets;
