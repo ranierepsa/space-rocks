@@ -4,7 +4,7 @@
 // @param {enum} Bullet faction
 // @param {int}  Gun
 function create_bullet(_direction, _speed, _faction, _guns = -1){
-	switch (guns) {
+	switch (_guns) {
 		case powerups.three_bullets:
 			var inst_id = instance_create_layer(x, y, "Instances", obj_bullet);
 			initialise_bullet(_direction, _speed, _faction, inst_id);
